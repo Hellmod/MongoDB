@@ -1,9 +1,9 @@
 package me.tsccoding.mongodb;
 
 public class Inwestor extends Czlowiek {
-    private int kapital;
+    private String kapital;
 
-    Inwestor(int kapital, int id_klient, String imie, String nazwisko){
+    Inwestor(String kapital, String id_klient, String imie, String nazwisko){
         setKapital(kapital);
         setId_klient(id_klient);
         setImie(imie);
@@ -14,11 +14,11 @@ public class Inwestor extends Czlowiek {
 
     }
 
-    public void setKapital(int kapital) {
+    public void setKapital(String kapital) {
         this.kapital = kapital;
     }
 
-    public int getKapital() {
+    public String getKapital() {
         return kapital;
     }
 }

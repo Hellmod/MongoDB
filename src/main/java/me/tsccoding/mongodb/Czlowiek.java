@@ -1,11 +1,11 @@
 package me.tsccoding.mongodb;
 
 public class Czlowiek {
-    protected int id_klient;
+    protected String id_klient;
     protected String imie;
     protected String nazwisko;
 
-    public int getId_klient() {
+    public String getId_klient() {
         return id_klient;
     }
 
@@ -17,7 +17,7 @@ public class Czlowiek {
         return nazwisko;
     }
 
-    public void setId_klient(int id_klient) {
+    public void setId_klient(String id_klient) {
         this.id_klient = id_klient;
     }
 
@@ -31,7 +31,7 @@ public class Czlowiek {
 
     @Override
     public String toString() {
-        return id_klient+" "+imie+" "+nazwisko;
+        return " | id_klient= "+id_klient+" | imie= "+imie+" | nazwisko= "+nazwisko;
     }
 
 

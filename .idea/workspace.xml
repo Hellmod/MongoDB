@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6dbc196-9fb1-4f78-9863-e14414ea5539" name="Default Changelist" comment="" />
+    <list default="true" id="f6dbc196-9fb1-4f78-9863-e14414ea5539" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Czlowiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Czlowiek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Inwestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Inwestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Klient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/MongoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/MongoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Czlowiek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Czlowiek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Inwestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Inwestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Klient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Klient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/MongoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/MongoMain.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +30,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Vw4om27Uj3lpap64tLTV8X1zb5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -68,11 +84,36 @@
       <workItem from="1578159651528" duration="3473000" />
       <workItem from="1578174139897" duration="882000" />
       <workItem from="1578175154662" duration="769000" />
-      <workItem from="1578268558342" duration="3157000" />
+      <workItem from="1578268558342" duration="5554000" />
+      <workItem from="1578324580361" duration="6237000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/MongoMain.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
