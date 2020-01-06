@@ -46,8 +46,6 @@ public class MongoMain {
 
             case 1:
                 Klient.wypiszWszystkichKlientow(collection);
-
-
                 break;
             case 2:
                 System.out.println("Podaj id: ");
@@ -69,6 +67,13 @@ public class MongoMain {
                 String id2 = scanner.nextLine();
                 DBCursor cursor = collection.find(new BasicDBObject("Id_klient", id2));
                 System.out.println(new Klient(cursor.one()).toString());
+                System.out.println("Dodano klijenta o id");
+                break;
+            case 4:
+                System.out.println("Podaj id: ");
+                String id3 = scanner.nextLine();
+                collection.findAndRemove(new BasicDBObject("Id_klient", id3));
+                System.out.println("Usunięto klijenta o id");
 
                 break;
         }
@@ -79,11 +84,13 @@ public class MongoMain {
 
     static void wypisz(){
         System.out.println("################################\n" +
-                           "#         MENU                 #\n" +
+                           "#            MENU              #\n" +
                            "# 0 Wyjście z systemu          #\n" +
                            "# 1 Wypisz wszystkich klientow #\n" +
                            "# 2 Dodaj klijenta             #\n" +
                            "# 3 Wypisz klijenta o id =     #\n" +
-                           "# Co wybierasz?                #");
+                           "# 4 Usuń klijenta o id =       #\n" +
+                           "# Co wybierasz?                #\n" +
+                           "################################");
     }
 }

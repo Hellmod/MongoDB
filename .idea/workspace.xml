@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6dbc196-9fb1-4f78-9863-e14414ea5539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Czlowiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Czlowiek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Inwestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Inwestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/Klient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/MongoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/MongoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Czlowiek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Czlowiek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Inwestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Inwestor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Klient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/Klient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/MongoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/tsccoding/mongodb/MongoMain.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,16 +97,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/me/tsccoding/mongodb/MongoMain.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

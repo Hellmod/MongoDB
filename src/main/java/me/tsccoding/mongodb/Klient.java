@@ -34,7 +34,7 @@ public class Klient extends Czlowiek {
     }
 
     static void  wypiszWszystkichKlientow(DBCollection collection){
-        DBCursor cursor = collection.find(new BasicDBObject());
+        DBCursor cursor = collection.find();//new BasicDBObject()
         while ( cursor.hasNext()){
             System.out.println(new Klient(cursor.next()).toString());
         }
